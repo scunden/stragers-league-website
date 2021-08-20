@@ -108,7 +108,7 @@
 </div>
 <h1 class="decorated"><span>Scoring</span></h1>
 <div class="container-2" style="margin-bottom: 40px">
-    <div style="width: 70%; font-size: 1.5rem; color: #716F81;">
+    <div class="info-text">
         <p> The scoring system for this league is a fairly standard half PPR
          format with a boosted DST scoring. I will create a post
          later contrasting what the DST scores would have looked like had we
@@ -122,8 +122,7 @@
 
  </div>
  <div class="h-container">
-    <div class="v-container" style="min-width: 10vw"></div>
-    <div class="v-container">
+    <div class="v-container first-v-container">
         <img class="small-user-picture color-image" src="{% static 'images/qb.png'%}">
     </div>
     <div class="v-container">
@@ -135,17 +134,14 @@
     <div class="v-container">
         <img class="small-user-picture color-image" src="{% static 'images/kicker.png'%}">
     </div>
-    <div class="v-container ">
+    <div class="v-container last-v-container">
         <img class="small-user-picture color-image" src="{% static 'images/dst.png'%}">
     </div>
-    <div class="v-container" style="min-width: 10vw"></div>
 
 
  </div>
  <div class="h-container">
-    <div class="v-container" style="min-width: 10vw"></div>
-
-    <div class="v-container" style="border-top: 1px solid #F6AE99;">
+    <div class="v-container first-v-container " style="border-top: 1px solid #F6AE99;">
         <div><p class="a-left">Passing Yard</p><p class="a-right">0.04pts</p></div>
         <div><p class="a-left">Passing TD</p><p class="a-right">4pts</p></div>
         <div><p class="a-left">Passing 2pt Conv</p><p class="a-right">2pts</p></div>
@@ -175,11 +171,11 @@
     <div class="v-container" style="border-top: 1px solid #F6AE99;">
         <div><p class="a-left">Extra Point</p><p class="a-right">1pts</p></div>
         <div><p class="a-left">Field Goal (per yard)</p><p class="a-right">0.1pts</p></div>
-        <div><p class="a-left">FG Missed (0-29 yards)</p><p class="a-right">-2pts</p></div>
-        <div><p class="a-left">FG Missed (30-49 yards)</p><p class="a-right">-1pts</p></div>
+        <div><p class="a-left">FG Miss (0-29 yards)</p><p class="a-right">-2pts</p></div>
+        <div><p class="a-left">FG Miss (30-49 yards)</p><p class="a-right">-1pts</p></div>
 
     </div>
-    <div class="v-container" style="border-top: 1px solid #F6AE99;">
+    <div class="v-container last-v-container" style="border-top: 1px solid #F6AE99;">
         <div><p class="a-left">Yard Allowed</p><p class="a-right">-0.02pts</p></div>
         <div><p class="a-left">Point Allowed</p><p class="a-right">-0.4pts</p></div>
         <div><p class="a-left">Interception</p><p class="a-right">2pts</p></div>
@@ -193,13 +189,12 @@
         <div><p class="a-left">Blocked Kick</p><p class="a-right">3pts</p></div>
 
     </div>
-    <div class="v-container" style="min-width: 10vw"></div>
 </div>
 
 
 <h1 class="decorated"><span>Waiver Wire</span></h1>
 <div class="container-2" style="margin-bottom: 40px">
-    <div style="width: 70%; font-size: 1.5rem; color: #716F81;">
+    <div class="info-text">
         <p> We will be implementing a daily waiver wire system for this league.
             This means that instead of having waiver claims and decisions go through
             during a specific period (traditionally Tuesday-Thursday) after which
